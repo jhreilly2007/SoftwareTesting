@@ -1,6 +1,5 @@
 /**Name : Janice Reilly
- * Task : Assignment 1 CS608
- * ID : 18971025
+ * Task : Assignment 1 
  * SugarTaxTest: runs includes all my black box and white box tests
  */
 
@@ -17,17 +16,17 @@ public class SugarTaxTest {
       //    id, 			sugar, taxable,  expected
 	//EP Tests
       {"T1.1",  			  2500,  true,    NONE},
-      {"T1.2", 			      6500,  true,     LOW},
+      {"T1.2", 			      	  6500,  true,     LOW},
       {"T1.3", 				 10000,  true,    HIGH},
       {"T1.4",  			  -100, false, INVALID},
      //BV Tests 
-      {"T2.1",  		 		 0,  true,    NONE},
+      {"T2.1",  		 	    0,  true,    NONE},
       {"T2.2",   			  4999,  true,    NONE},
       {"T2.3",   			  5000,  true,     LOW},
       {"T2.4",   			  7999,  true,     LOW},
       {"T2.5",   			  8000,  true,    HIGH},
-      {"T2.6",   Integer.MAX_VALUE, false,    NONE},
-      {"T2.7",   Integer.MIN_VALUE, false, INVALID},
+      {"T2.6",  	      Integer.MAX_VALUE, false,    NONE},
+      {"T2.7",   	      Integer.MIN_VALUE, false, INVALID},
       {"T2.8",   			    -1, false, INVALID},
 	   //Combinations
       {"T3.1",  			  6500, false,    NONE},
