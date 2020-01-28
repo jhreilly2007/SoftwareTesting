@@ -1,7 +1,7 @@
 //
 // Adventure Web Test Demo 
-//	@author Janice Reilly ID: 18971025	
-//			Assignment 2 CS608
+//	@author Janice Reilly	
+//			Assignment Software Tesing
 //	Additional Libraries: selenium-server-standalone-3.141.5.jar & chromedriver.exe
 //
 package JR;
