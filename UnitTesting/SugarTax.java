@@ -1,6 +1,5 @@
 /**Name : Janice Reilly
- * Task : Assignment 1 CS608
- * ID : 18971025
+ * Task : Assignment 1
  */
 
 package cs608;
